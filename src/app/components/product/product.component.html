@@ -1,0 +1,8 @@
+<h1>{{ product.title }}</h1>
+<img
+  [ngSrc]="product.images[0]"
+  alt="{{ product.title }}"
+  width="640"
+  height="480"
+/>
+<p>$ {{ product.price }}</p>
